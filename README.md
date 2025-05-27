@@ -95,7 +95,7 @@ O projeto segue arquitetura em camadas: Controller → Service → Repository �
 - Interface interativa com Swagger para explorar a API
 
 
-## Telas de criação
+## 🖥️ Telas de criação
 
 A tela de criação de evento permite definir os detalhes do evento, como nome, data, local e número de vagas disponíveis.
 
