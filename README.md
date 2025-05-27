@@ -1,6 +1,104 @@
-# Gestão de Evento
+# 🎟️ API - Sistema de Gestão de Eventos
 
-## 1. Criação de Evento
+Este é um sistema simples de gerenciamento de eventos, com a funcionalidade CRUD, que permite criar eventos, listar, atualizar e excluir
+
+## ✅ Funcionalidade Miníma
+
+### 🎯 Funcionalidade CRUD em prática no nosso projeto.
+- Criar eventos 
+- Listar eventos disponíveis
+- Atualizar eventos disponíveis 
+- Excluir eventos
+
+### 📅 Eventos
+- Criar evento com os campos: `nome`, `descrição`, `data`, `local`, `vagas`  
+- Listar eventos disponíveis  
+- Atualizar dados do evento  
+- Excluir evento  
+
+### 👥 Participantes
+- Cadastro de participante com: `nome`, `e-mail`, `telefone`  
+- Inscrição em evento (com verificação de limite de vagas)  
+- Cancelamento de inscrição  
+- Listar participantes de um evento
+
+### 🔗 Relacionamentos
+- Um **evento** pode ter vários **participantes** 
+- Um **participante** pode se inscrever em vários **eventos** 
+
+---
+## 4️⃣👨‍💻 Equipe e sua Divisão de Tarefas
+
+### 👤 Pessoa 1 
+- [Julio Cesar](https://github.com/nyxpdb)
+- Configuração do projeto  
+- Criação das entidades: `Evento` e `Participante`  
+- Relacionamentos (ManyToMany ou com tabela intermediária)
+
+### 👤 Pessoa 2
+- [Ana Karine](https://github.com/anakarine1511)
+- Repository, DTO e Service das entidades  
+- Lógica de inscrição com verificação de vagas
+
+### 👤 Pessoa 3 
+- [Ricardo Ongari](https://github.com/ricardoongari)
+- Criação dos Controllers e endpoints  
+- Testes com Postman
+
+### 👤 Pessoa 4 
+- [Igor Maurilio](https://github.com/igoormaurilio)
+- Organização do repositório GitHub  
+- Criação do `README.md` com instruções  
+- Acompanhamento de commits e divisão de tarefas  
+- Documentação com Swagger
+
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+- Java 21
+- Spring Boot
+- Spring Data JPA / Hibernate
+- Maven
+- REST API
+- Swagger (OpenAPI)
+- Postman
+- Git & GitHub
+- Eclipse IDE
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+
+2. **Instale as dependências com Maven:**
+   ```bash
+   mvn install
+
+3. **Execute a aplicação:**
+  ```bash
+  mvn spring-boot:run
+``` 
+4. **Acesse a aplicação:**
+  ```bash
+  http://localhost:8080
+```
+5. **Documentação da API (Swagger):**
+  ```bash
+   http://localhost:8080/swagger-ui.html
+```
+## 📝 Observações Finais
+O projeto segue arquitetura em camadas: Controller → Service → Repository → Entity
+- Utilização de DTOs para transferência segura de dados
+- Endpoints documentados e testados com Postman
+- Interface interativa com Swagger para explorar a API
+
+
+## Telas de criação
 
 A tela de criação de evento permite definir os detalhes do evento, como nome, data, local e número de vagas disponíveis.
 
