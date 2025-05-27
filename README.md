@@ -29,24 +29,20 @@ Este é um sistema simples de gerenciamento de eventos, com a funcionalidade CRU
 ---
 ## 4️⃣👨‍💻 Equipe e sua Divisão de Tarefas
 
-### 👤 Pessoa 1 
-- [Julio Cesar](https://github.com/nyxpdb)
+### 👤 [Julio Cesar](https://github.com/nyxpdb)
 - Configuração do projeto  
 - Criação das entidades: `Evento` e `Participante`  
 - Relacionamentos (ManyToMany ou com tabela intermediária)
 
-### 👤 Pessoa 2
-- [Ana Karine](https://github.com/anakarine1511)
+### 👤 [Ana Karine](https://github.com/anakarine1511)
 - Repository, DTO e Service das entidades  
 - Lógica de inscrição com verificação de vagas
 
-### 👤 Pessoa 3 
-- [Ricardo Ongari](https://github.com/ricardoongari)
+### 👤 [Ricardo Ongari](https://github.com/ricardoongari)
 - Criação dos Controllers e endpoints  
 - Testes com Postman
 
-### 👤 Pessoa 4 
-- [Igor Maurilio](https://github.com/igoormaurilio)
+### 👤 [Igor Maurilio](https://github.com/igoormaurilio)
 - Organização do repositório GitHub  
 - Criação do `README.md` com instruções  
 - Acompanhamento de commits e divisão de tarefas  
@@ -65,6 +61,7 @@ Este é um sistema simples de gerenciamento de eventos, com a funcionalidade CRU
 - Postman
 - Git & GitHub
 - Eclipse IDE
+- MySQL
 
 ---
 
