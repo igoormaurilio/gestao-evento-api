@@ -119,4 +119,3 @@ O registro dos participantes é feito utilizando o **ID** de cada usuário. Isso
 
 ![Registro no Banco](https://media.discordapp.net/attachments/1116570191921414205/1376897056781897890/image.png?ex=6836fecf&is=6835ad4f&hm=be8f1f20e6063ed815230465758c29ad88b1498fa5e298231ee93938d415ceb6&=&format=webp&quality=lossless&width=402&height=363)
 
----
